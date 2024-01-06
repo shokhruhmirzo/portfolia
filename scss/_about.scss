@@ -231,6 +231,11 @@
 }
 
 @media (max-width:700px) {
+
+    .grid__img {
+        margin-left: 30px;
+    }
+
     .portfolio__div {
         width: 600px;
         height: 100px;
@@ -272,7 +277,21 @@
     }
 }
 
+
+@media(max-width:600px) {
+    .grid__img {
+        width: 480px;
+        margin-left: 20px;
+    }
+
+}
+
 @media (max-width:500px) {
+
+    .grid__img {
+        width: 400px;
+    }
+
     .yellow {
         width: 200px;
         height: 200px;
@@ -287,10 +306,31 @@
 
     .footer__text {
         color: #A3ABB2;
-        // text-align: center;
         font-size: 20px;
         font-weight: 500;
     }
+}
 
+@media(max-width:450px) {
+    .grid__img {
+        width: 350px;
+        height: 350px;
+    }
 
+    .about__flex {
+        align-items: center;
+    }
+
+    .text__flex p {
+        color: #A3ABB2;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .ali {
+        color: #F1F2F4;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+    }
 }
