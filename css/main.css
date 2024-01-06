@@ -250,6 +250,9 @@ a {
   }
 }
 @media (max-width: 700px) {
+  .grid__img {
+    margin-left: 30px;
+  }
   .portfolio__div {
     width: 600px;
     height: 100px;
@@ -284,7 +287,16 @@ a {
     height: 50.303px;
   }
 }
+@media (max-width: 600px) {
+  .grid__img {
+    width: 480px;
+    margin-left: 20px;
+  }
+}
 @media (max-width: 500px) {
+  .grid__img {
+    width: 400px;
+  }
   .yellow {
     width: 200px;
     height: 200px;
